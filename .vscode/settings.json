@@ -1,0 +1,8 @@
+{
+	"eslint.runtime": "bun",
+	"eslint.nodePath": "~/.bun/bin/bun",
+	"eslint.options": {
+		"overrideConfigFile": "./config/eslint.ts"
+	},
+	"eslint.useFlatConfig": true
+}

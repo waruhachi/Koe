@@ -1,0 +1,43 @@
+{
+	"name": "koe",
+	"description": "",
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"keywords": [
+		"bot",
+		"discord",
+		"discord.js",
+		"robo",
+		"robo.js",
+		"typescript"
+	],
+	"scripts": {
+		"build": "robox build",
+		"deploy": "robox deploy",
+		"dev": "robox dev",
+		"doctor": "sage doctor",
+		"invite": "robox invite",
+		"lint": "bun lint:eslint && bun lint:style",
+		"lint:eslint": "eslint -c config/eslint.ts .",
+		"lint:style": "prettier --write .",
+		"start": "robox start",
+		"upgrade": "sage upgrade"
+	},
+	"dependencies": {
+		"discord.js": "^14.21.0",
+		"extensionless": "^1.9.9",
+		"robo.js": "^0.10.30"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.31.0",
+		"@swc/core": "^1.12.11",
+		"@types/node": "^24.0.13",
+		"eslint": "9",
+		"globals": "^16.3.0",
+		"jiti": "^2.4.2",
+		"prettier": "^3.6.2",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.36.0"
+	}
+}
