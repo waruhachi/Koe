@@ -1,6 +1,6 @@
 {
 	"name": "koe",
-	"description": "",
+	"description": "A Discord bot that tracks voice chat activity and provides voice statistics with leaderboards and user history.",
 	"version": "1.0.0",
 	"type": "module",
 	"private": true,
